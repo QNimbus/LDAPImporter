@@ -1,0 +1,35 @@
+{
+  "name": "ldapimporter",
+  "version": "0.0.1",
+  "description": "Utility to automaticaly import CSV formatted files into an LDAP database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/QNimbus/LDAPImporter.git"
+  },
+  "keywords": [
+    "LDAP",
+    "CSV",
+    "import"
+  ],
+  "author": "B. van Wetten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QNimbus/LDAPImporter/issues"
+  },
+  "homepage": "https://github.com/QNimbus/LDAPImporter#readme",
+  "dependencies": {
+    "csvtojson": "^1.1.7",
+    "ldapjs": "^1.0.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.2",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0"
+  }
+}

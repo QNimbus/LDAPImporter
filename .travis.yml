@@ -1,0 +1,5 @@
+# Test travis build
+language: node_js
+node_js:
+ - "8"
+ - "7"
